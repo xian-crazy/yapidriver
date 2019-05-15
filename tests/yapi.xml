@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1"  parallel="classes" thread-count="10">
+    <!--按包定义测试用例集合-->
+    <test name="yapi检查" >
+        <classes>
+            <class name="com.crazy.autotest.yapidriver.YapiCaseDriver" />
+        </classes>
+    </test>
+<!--按测试类定义用例集合-->
+    <!--<test name="Regression1">-->
+        <!--<classes>-->
+            <!--<class name="test.sample.ParameterSample"/>-->
+            <!--<class name="test.sample.ParameterTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>
