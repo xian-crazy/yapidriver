@@ -23,6 +23,9 @@
         传一个值监控一个空间：-DspaceIds=57
         传入多个值监控多个空间：-DspaceIds=57,22
         执行结束后，在当前工程目录下执行：allure serve target/allure-results 查看allure格式化结果的报告
+     6. 可集成jenkins 自行网搜解决方案（样例见下图）
+
+ ![Allure Report](./doc/image/5.png)
 
 ## 报告截图
 ![Allure Report](./doc/image/1.png)
